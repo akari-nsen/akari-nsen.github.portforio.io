@@ -1,0 +1,101 @@
+/* 全体のフォントを統一する */
+body{
+  font-family: 'Arial','メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+  /* メインの本文の文字の位置*/
+.mainInner{
+  max-width: 100%;
+  padding: 0 20px;
+  margin: auto;
+  text-align: center;
+}
+
+/* ヘッダーの並び方*/
+.HeaderInner {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+ul{
+  list-style: none;
+}
+.link{
+  display: flex;
+}
+.link-child{
+  padding-right: 20px;
+  margin: auto;
+}
+
+.top{
+  display: inline-block
+}
+.title{
+  margin: 100px auto 30px auto;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+.item{
+  margin-right: 10px;
+  padding: 5px 20px;
+  background-color: lightskyblue;
+}
+
+.smalltitle{
+  margin: 100px auto 30px auto;
+}
+
+/* .icon, .string を真ん中にする */
+.profile{
+  margin:16px;
+}
+.icon{
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+
+/* グラフの画像を横一列に */
+.chart{
+  width: 200px;
+  height: 200px;
+  display: table-cell;
+  display: inline-block;
+}
+.chart img{
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+}
+
+/* .IntroEnquete .IntroAssessment の中の画像(リンク)を横一列にする */
+.IntroEnquete, .IntroAssessment{
+  width: 400px;
+  height: 300px;
+  display: table-cell;
+  display: inline-block;
+}
+.httpsenquetes, .httpsassessment{
+  width: 250px;
+  height: 150px;
+  vertical-align: middle;
+}
+/* FooterのTwitter,Githubのアイコンのサイズ, 場所 */
+.twitter, .github{
+  width: 90px;
+  height: 90px;
+  display: table-cell;
+  display: inline-block;
+}
+.TwitterIcon, .GithubIcon{
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+}
+
