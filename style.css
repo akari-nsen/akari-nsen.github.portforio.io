@@ -3,6 +3,10 @@ body{
   font-family: 'Arial','メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
   /* メインの本文の文字の位置*/
 .mainInner{
   max-width: 100%;
@@ -27,8 +31,11 @@ ul{
   display: flex;
 }
 .link-child{
-  padding-right: 20px;
-  margin: auto;
+  padding: 2px;
+  margin: 10px;
+}
+.link-child:hover{
+  background-color:red;
 }
 
 .top{
